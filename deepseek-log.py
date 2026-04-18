@@ -16,7 +16,7 @@ from datetime import datetime
 
 # ========== 配置区域（只需修改轮询间隔，仓库自动检测） ==========
 POLL_INTERVAL = 300         # 轮询间隔（秒），5分钟 = 300秒
-WORKFLOW_NAME = "CI"        # 工作流文件名（如 CI.yml），根据你的实际工作流名称修改
+WORKFLOW_NAME = "build.yml"        # 工作流文件名（如 CI.yml），根据你的实际工作流名称修改
 LOG_DIR = Path.home() / "ci_monitor_logs"  # 日志保存目录
 # ================================================================
 
