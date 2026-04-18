@@ -54,6 +54,8 @@ jobs:
           cache-read-only: false
           # 即使构建失败（如 R8 报错）也保存已下载的依赖，方便下次快速重试
           cache-overwrite-existing: true
+          # 指定 Gradle 版本
+          gradle-version: 8.13
 
       # ── 4. 计算版本号 ──
       - name: Get version
